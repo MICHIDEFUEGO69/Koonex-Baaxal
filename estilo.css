@@ -1,0 +1,508 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #A3C1DA;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.contenido-centrado {
+    text-align: center; /* Centra contenido en el contenedor */
+    margin: none; /* Espaciado arriba y abajo */
+}
+
+.contenido-centrado img {
+    max-width: 55%; /* Escala la imagen para adaptarse al contenedor */
+    height: auto; /* Mantiene la proporción */
+    border: none;
+    border-radius: none; /* Opcional: bordes redondeados */
+}
+.contenido-centrado .imagen-ajustada img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagen-izquierda2 {
+    display: flex; /* Centra horizontal y verticalmente */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    margin: 0 auto; /* Centrado adicional */
+}
+
+.imagen-izquierda img {
+    max-width: 450px; /* Tamaño máximo más pequeño */
+    width: 100%; /* Asegura que la imagen no exceda su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagen-izquierda img2 {
+    max-width: 850px; /* Tamaño máximo más pequeño */
+    width: 100%; /* Asegura que la imagen no exceda su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.imagen-ajustada {
+    width: 1000px; /* Tamaño fijo pequeño */
+    height: auto; /* Mantener proporción */
+    display: block; /* Elemento de bloque */
+    margin: 0 auto; /* Centrado horizontal */
+    border: 1px solid #ccc; /* Borde opcional */
+}
+.imagen-reducida {
+    display: block; /* Asegúrate de que se comporte como un bloque */
+    max-width: 74%; /* Ajusta el tamaño máximo al 74% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 1px solid #ccc; /* Bordes opcionales */
+    border-radius: 20px; /* Bordes redondeados */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 0; /* Sin relleno */
+    text-align: center; /* Alinea el texto, si es necesario */
+}
+
+.imagen-ajustada img {
+    border: none; /* Elimina cualquier borde en la imagen */
+    box-shadow: none; /* Elimina cualquier sombra en la imagen */
+}
+
+.imagen-ajustada {
+    border: none; /* Elimina el borde del contenedor si aplica */
+    box-shadow: none; /* Elimina sombras del contenedor */
+}
+
+/* Contenedor de imágenes en el encabezado */
+.img-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+.img-container, .img-container2, .img-container3 {
+    flex: 1;
+    text-align: center;
+}
+
+.img-container img, .img-container2 img, .img-container3 img {
+    max-width: 365px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Índice */
+.indice {
+    background: lightblue;
+    color: black;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    max-width: 800px;
+}
+
+.indice h5 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.indice a {
+    color: black;
+    text-decoration: none;
+}
+
+.indice a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedores generales */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    text-align: justify;
+}
+
+/* Información */
+.informacion, .informacion2, .informacion3, .informacion4, .informacion5, .informacion7 {
+    background: white;
+    color: black;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    max-width: 1400px;
+    text-align: justify;
+}
+.informacion6{
+    background: white;
+    color: black;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    max-width: 1220px;
+    text-align: justify;
+}
+
+/* Información */
+.informacion8 {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 2050px;
+    text-align: justify;
+}
+
+.informacion h2, .informacion2 h2, .informacion3 h2, .informacion4 h2 {
+    color: #003399 !important; /* Azul fuerte con !important */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.informacion h3, .informacion2 h3, .informacion3 h3, .informacion4 h3 {
+    color: #003399 !important; /* Azul fuerte con !important */
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Listas */
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Botones */
+.boton {
+    background-color: #87CEEB; /* Azul cielo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: #4682B4; /* Azul más oscuro al pasar el ratón */
+}
+a {
+    letter-spacing: 2px; /* Este valor aumenta el espacio entre las letras */
+}
+
+
+/* Contenedor de botones */
+.botones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .img-container-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-container img, .img-container2 img, .img-container3 img {
+        max-width: 200px;
+    }
+
+    .indice, .card, .informacion, .informacion2, .informacion3, .botones {
+        width: 95%;
+    }
+}
+
+/* Encabezados */
+h1 {
+    color: blue !important; /* Azul para h1 con !important */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #003399 !important; /* Azul fuerte */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #003399 !important; /* Azul fuerte */
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #003399 !important; /* Azul fuerte */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    color: #003399 !important; /* Azul fuerte */
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* Texto dentro de las etiquetas <p> */
+p {
+    color: black !important; /* Negro */
+}
+/* ============================= */
+/* Estilos para la tabla de niveles de autismo */
+/* ============================= */
+
+.tabla-niveles {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: white;
+  text-align: justify;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-weight: bold; /* ← AÑADE ESTA LÍNEA */
+}
+
+.tabla-niveles th, 
+.tabla-niveles td {
+  border: 1px solid #999;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.encabezado {
+  background-color: #003366; /* Azul oscuro */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.nivel {
+  background-color: #0070c0; /* Azul medio */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 22%;
+}
+
+.tabla-niveles tr:nth-child(even) td:not(.nivel) {
+  background-color: #f2f2f2; /* Gris claro alternado */
+}
+
+.tabla-niveles small {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .tabla-niveles {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .tabla-niveles th, 
+  .tabla-niveles td {
+    padding: 8px;
+  }
+}
+/* ============================= */
+/* Tabla: Necesidades Educativas TEA */
+/* ============================= */
+.tabla-educativa {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: white;
+  text-align: justify;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tabla-educativa th, 
+.tabla-educativa td {
+  border: 1px solid #999;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.tabla-educativa th {
+  background-color: #003366; /* Azul oscuro */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tabla-educativa .area {
+  background-color: #0070c0; /* Azul medio */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 18%;
+}
+
+.tabla-educativa tr:nth-child(even) td:not(.area) {
+  background-color: #f2f2f2; /* Gris claro alternado */
+}
+
+.tabla-educativa ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.tabla-dificultades {
+  width: 95%;
+  margin: 30px auto;
+  font-family: 'Century Gothic', sans-serif;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-dificultades table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-dificultades th {
+  background-color: #002b5b;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.tabla-dificultades td {
+  border: 1px solid #ccc;
+  vertical-align: top;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.tabla-dificultades .categoria {
+  background-color: #0070c0;
+  color: white;
+  font-weight: bold;
+  width: 25%;
+  text-align: center;
+}
+
+.tabla-dificultades ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.tabla-dificultades li {
+  margin-bottom: 6px;
+}
+
+.tabla-dificultades tr:nth-child(even) td:not(.categoria) {
+  background-color: #f9f9f9;
+}
+.tabla-tea {
+  width: 95%;
+  margin: 30px auto;
+  font-family: 'Arial', sans-serif;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-tea table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-tea th {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.tabla-tea th:nth-child(1) {
+  background-color: #00a2e8; /* azul claro */
+}
+
+.tabla-tea th:nth-child(2) {
+  background-color: #004aad; /* azul oscuro */
+}
+
+.tabla-tea th:nth-child(3) {
+  background-color: #555555; /* gris oscuro */
+}
+
+.tabla-tea td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.tabla-tea tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-tea tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tabla-tea td:nth-child(1) {
+  width: 35%;
+}
+
+.tabla-tea td:nth-child(2) {
+  width: 40%;
+}
+
+.tabla-tea td:nth-child(3) {
+  width: 25%;
+}
+

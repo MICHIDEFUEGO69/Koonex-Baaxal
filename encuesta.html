@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Detección de Autismo</title>
+    <link rel="icon" href="BAXAL.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="l.css">
+</head>
+<div class="img-container-wrapper">
+    <div class="img-container3">
+        <img src="orientacion educativa.png" alt=".">
+    </div>
+    <div class="img-container">
+        <img src="BAXAL.png" alt=".">
+    </div>    
+    <div class="img-container2">
+        <img src="cbtis95.png" alt=".">
+    </div>
+</div>
+<div class="texto">
+    <h1>Bienvenido este pequeño cuestionario esta diseñado para diagnosticar si puede presentar la persona TEA </h1>
+
+</div>
+<body>
+    <div class="container1">
+        <h1>Cuestionario de Detección de Autismo</h1>
+        <form id="cuestionario">
+            <div class="pregunta">
+                <h2>Sección 1: Desarrollo Social y Comunicación</h2>
+                <p>¿El niño evita o no mantiene contacto visual con otras personas?</p>
+                <label><input type="radio" name="q1" value="Sí"> Sí</label>
+                <label><input type="radio" name="q1" value="No"> No</label>
+                <label><input type="radio" name="q1" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño tiene dificultades para responder a su nombre, especialmente cuando se le llama en voz alta?</p>
+                <label><input type="radio" name="q2" value="Sí"> Sí</label>
+                <label><input type="radio" name="q2" value="No"> No</label>
+                <label><input type="radio" name="q2" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño muestra una falta de interés en juegos de imitación o juego simbólico?</p>
+                <label><input type="radio" name="q3" value="Sí"> Sí</label>
+                <label><input type="radio" name="q3" value="No"> No</label>
+                <label><input type="radio" name="q3" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño tiene dificultades para comprender o usar gestos como señalar, saludar o despedirse?</p>
+                <label><input type="radio" name="q4" value="Sí"> Sí</label>
+                <label><input type="radio" name="q4" value="No"> No</label>
+                <label><input type="radio" name="q4" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño prefiere jugar solo y evita el contacto con otros niños?</p>
+                <label><input type="radio" name="q5" value="Sí"> Sí</label>
+                <label><input type="radio" name="q5" value="No"> No</label>
+                <label><input type="radio" name="q5" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño tiene dificultades para iniciar o mantener una conversación?</p>
+                <label><input type="radio" name="q6" value="Sí"> Sí</label>
+                <label><input type="radio" name="q6" value="No"> No</label>
+                <label><input type="radio" name="q6" value="No se sabe"> No se sabe</label>
+            </div>
+            <div class="pregunta">
+                <p>¿El niño muestra una preferencia por rutinas fijas y puede sentirse molesto si estas cambian?</p>
+                <label><input type="radio" name="q7" value="Sí"> Sí</label>
+                <label><input type="radio" name="q7" value="No"> No</label>
+                <label><input type="radio" name="q7" value="No se sabe"> No se sabe</label>
+            </div>
+
+            <div class="container2">
+                <div class="pregunta">
+                    <h2>Sección 2: Comportamientos Repetitivos e Intereses Específicos</h2>
+                    <p>¿El niño realiza movimientos repetitivos, como balancearse, aplaudir o girar objetos?</p>
+                    <label><input type="radio" name="q8" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q8" value="No"> No</label>
+                    <label><input type="radio" name="q8" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño se enfoca de manera excesiva en partes específicas de objetos (por ejemplo, ruedas de un coche, o las etiquetas de la ropa)?</p>
+                    <label><input type="radio" name="q9" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q9" value="No"> No</label>
+                    <label><input type="radio" name="q9" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño muestra un interés intensamente limitado en ciertos temas o actividades (por ejemplo, obsesión por ciertos juguetes o actividades)?</p>
+                    <label><input type="radio" name="q10" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q10" value="No"> No</label>
+                    <label><input type="radio" name="q10" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño tiene dificultades para comprender o usar el lenguaje de manera apropiada para su edad?</p>
+                    <label><input type="radio" name="q11" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q11" value="No"> No</label>
+                    <label><input type="radio" name="q11" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño muestra una tendencia a repetir ciertas palabras o frases fuera de contexto?</p>
+                    <label><input type="radio" name="q12" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q12" value="No"> No</label>
+                    <label><input type="radio" name="q12" value="No se sabe"> No se sabe</label>
+                </div>
+            </div>
+
+            <div class="container3">
+                <div class="pregunta">
+                    <h2>Sección 3: Habilidades Sensoriales y Reacciones Emocionales</h2>
+                    <p>¿El niño muestra hipersensibilidad o hiposensibilidad a estímulos sensoriales, como ruidos fuertes, luces brillantes o texturas?</p>
+                    <label><input type="radio" name="q13" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q13" value="No"> No</label>
+                    <label><input type="radio" name="q13" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño reacciona de manera exagerada o inapropiada a situaciones emocionales o estresantes (por ejemplo, gritos, llanto sin motivo aparente)?</p>
+                    <label><input type="radio" name="q14" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q14" value="No"> No</label>
+                    <label><input type="radio" name="q14" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño tiene patrones inusuales de sueño, como dormir demasiado o muy poco?</p>
+                    <label><input type="radio" name="q15" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q15" value="No"> No</label>
+                    <label><input type="radio" name="q15" value="No se sabe"> No se sabe</label>
+                </div>
+            </div>
+
+            <div class="container4">
+                <div class="pregunta">
+                    <h2>Sección 4: Desarrollo Motor y Coordinación</h2>
+                    <p>¿El niño presenta dificultades con habilidades motoras gruesas o finas, como gatear, caminar o utilizar utensilios?</p>
+                    <label><input type="radio" name="q16" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q16" value="No"> No</label>
+                    <label><input type="radio" name="q16" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño muestra falta de coordinación motora, como caídas frecuentes o movimientos torpes?</p>
+                    <label><input type="radio" name="q17" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q17" value="No"> No</label>
+                    <label><input type="radio" name="q17" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño tiene dificultad para realizar actividades que requieran coordinación de ambas manos, como abotonarse la ropa o atarse los zapatos?</p>
+                    <label><input type="radio" name="q18" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q18" value="No"> No</label>
+                    <label><input type="radio" name="q18" value="No se sabe"> No se sabe</label>
+                </div>
+                <div class="pregunta">
+                    <p>¿El niño evita actividades físicas que requieran equilibrio, como correr, saltar o montar en bicicleta?</p>
+                    <label><input type="radio" name="q19" value="Sí"> Sí</label>
+                    <label><input type="radio" name="q19" value="No"> No</label>
+                    <label><input type="radio" name="q19" value="No se sabe"> No se sabe</label>
+                </div>
+            </div>
+            <button type="submit">Generar Reporte</button>
+
+        </form>
+
+        <div id="resultado">
+            <p>Gracias por completar el cuestionario. Pronto generaremos tu reporte.</p>
+        </div>
+    </div>
+    <script src="Nataly.js"></script>
+</body>
+</html>

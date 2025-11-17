@@ -1,0 +1,101 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pantalla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: lightblue;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Contenedor de imágenes en el encabezado */
+.img-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+.img-container, .img-container2, .img-container3 {
+    flex: 1;
+    text-align: center;
+}
+
+.img-container img, .img-container2 img, .img-container3 img {
+    max-width: 365px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Estilo general del contenedor interactivo */
+.contenedor-interactivo {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.contenedor-interactivo:hover {
+    transform: scale(1.05);
+}
+
+.contenedor-interactivo:active {
+    transform: scale(0.95);
+}
+
+/* Botón de imagen interactivo */
+.boton-imagen {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.boton-imagen:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px lightblue;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la flecha hacia abajo */
+.flecha-abajo {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
